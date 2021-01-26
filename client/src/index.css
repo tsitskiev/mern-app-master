@@ -1,0 +1,11 @@
+@import '~materialize-css/dist/css/materialize.min.css';
+
+.rem-btn:hover {
+  transform: scale(1.15);
+  cursor: pointer;
+}
+
+th,
+td {
+  text-align: center;
+}

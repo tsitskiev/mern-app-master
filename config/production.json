@@ -1,0 +1,6 @@
+{
+  "port": 80,
+  "jwtSecret": "secretUserToken",
+  "mongoUri": "mongodb+srv://admin:admin@cluster0.qnppl.mongodb.net/mern-app?retryWrites=true&w=majority",
+  "baseUrl": "http://webdevtest.ru"
+}
