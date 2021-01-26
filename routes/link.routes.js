@@ -29,8 +29,8 @@ router.post('/generate', auth, async (req, res) => {
 });
 router.post('/remove', auth, async (req, res) => {
   try {
-    const { indToRemove } = req.body;
-    const existLink = await Link.findOne({ indToRemove });
+    const { idToRemove } = req.body;
+    const existLink = await Link.findById(idToRemove);
     await existLink.remove();
     res.status(201).json({ message: 'Link successfully removed' });
   } catch (e) {
